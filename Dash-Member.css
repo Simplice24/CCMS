@@ -115,9 +115,7 @@ h5,p{
   transition: visibility 0s, opacity 0.5s;
   border-radius: 5px;
 }
-.form-card input{
-  
-}
+
 .form-horizontal{
   padding: 20px !important;
   margin-left: 10%;
@@ -135,7 +133,10 @@ h5,p{
   font-weight: bold;
   cursor: pointer;
 }
-
+.dialog-active{
+  visibility: visible;
+  opacity:1
+}
 
 
 
