@@ -19,14 +19,26 @@
 }
 .mb-3 button{
     width: 100% !important;
+    border-radius: 20px !important;
+    border-color:#ecb191 !important;
+    background-color:#ecb191 !important;
+    color: black !important;
+    font-size: 20px !important;
+    font-weight: 600;
+}
+.mb-3 button:hover{
+    background-color: #e69c74 !important;
+    
 }
 .input-icon i{
     position: absolute !important;
-    font-size: 30px !important;
+    font-size: 25px !important;
     padding:4px !important;
+    padding-left: 3% !important;
   }
-input[type=email]{
-    padding-left:12% !important;
+input[type=email],[type=password]{
+    padding-left:15% !important;
+    border-radius: 20px !important;
 }
 
 
