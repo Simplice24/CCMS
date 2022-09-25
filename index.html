@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link a href="style.css" rel="stylesheet">
+    <link a href="Style.css" rel="stylesheet">
 
 
      <!-- Favicon -->
@@ -22,6 +22,10 @@
      <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
      <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
      
+<!-- login links-->
+<link rel="stylesheet" href="login-style.css">
+<script src="loginpop.js"></script>
+<!-- End of login -->
 
      
  
@@ -60,7 +64,7 @@
               
               
             </ul>
-            <button type="button" class="btn btn-outline-primary" id="login">Login</button>
+            <button type="button" class="btn btn-outline-primary" id="login" onclick="pop()">Login</button>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
@@ -69,11 +73,42 @@
           </div>
         </div>
       </nav>
- 
+
+
+
+ <!--Start of login-->
+
+ <div class="container-fluid" >
+  <div class="card-container1" id="card-container1">
+  <div class="mb-3">
+      <h2>Login</h2>
+  </div>
+  <div class="mb-3">
+    <div class="input-icon">
+      <i class="fa fa-envelope"></i>
+    <input type="email"  class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    </div>
+    <div class="mb-3">
+      <div class="input-icon">
+        <i class="fa fa-lock"></i>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" >
+    </div>
+    </div>
+    <div class="mb-3">
+      <button type="button" class="btn btn-primary">Login</button>
+    </div>
+  </div>
+</div>
+
+<!--End of login-->
+
       <div class="container-fluid" id="home">
         <h1>Coffee Cooperatives Management System</h1><br>
         <p>Coffee Cooperatives Management System is a Web-based System designed to collect and supply <br> all necessary information about all coffee cooperatives in country and how they are categorized <br> according to their production line. Coffee Cooperatives Management System also provide information <br> about location, members, and assets to cooperative managers, Social Economic Development Officers (SEDO), <br> Sector & District agronomist, RAB and NAEB   </p>
       </div>
+
+
       <div class="container-fluid" id="About_us">
         <h2>About Us</h2><br><br>
          <div class="card-container">
@@ -200,5 +235,23 @@
         <br>
         <i class="fa fa-copyright" id="copy">Copyright 2022</i>
       </footer>
+
+
+      <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+      <!--===============================================================================================-->
+        <script src="vendor/bootstrap/js/popper.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!--===============================================================================================-->
+        <script src="vendor/select2/select2.min.js"></script>
+      <!--===============================================================================================-->
+        <script src="vendor/tilt/tilt.jquery.min.js"></script>
+        <script >
+          $('.js-tilt').tilt({
+            scale: 1.1
+          })
+        </script>
+      <!--===============================================================================================-->
+        <script src="js/main.js"></script>
+
 </body>
 </html>
