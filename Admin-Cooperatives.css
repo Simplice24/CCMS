@@ -21,6 +21,7 @@
   .Menu a{
     text-decoration: none !important;
   }
+ 
   
   .Content{
     width:75% !important;
@@ -35,46 +36,7 @@
   #v-pills-profile-tab,#v-pills-messages-tab,#v-pills-settings-tab{
     text-align: left !important;
   }
-  .card{
-    margin: 10px 2px !important;
-    border-radius: 15px !important;
-  }
-.card-body{
-  height:fit-content !important;
-  text-align: center !important;
-  border-radius: 15px !important;
-}
-.card-title{
-  font-weight: 700 !important;
-  font-size: 30px !important;
-  font-family: "poppins",sans-serif !important;
-}
 
-#total-clients{
-  background-image: linear-gradient(180deg,#bae1eb,#62bfd3);
-}
-#new-clients{
-  background-image: linear-gradient(180deg,#f7c0d1,#de9cf0);
-}
-#products{
-  background-image: linear-gradient(180deg,#ffdde1,#ee9ca7);
-}
-#reservations{
-  background-image: linear-gradient(180deg,#d9edfb,#8f9faa);
-}
-#orders{
-  background-image: linear-gradient(180deg,#de6262,#ffb88c);
-}
-#messages{
-  background-image: linear-gradient(180deg,#dd5e89,#f7bb97);
-}
-
-h5,p{
-  font-family: "poppins", sans-serif !important;
-  line-height: 1.625 !important;
-  font-weight: 700 !important;
-  color: #ffffff;
-}
 .row{
   margin-left: 10% !important;
 }
@@ -95,3 +57,6 @@ h5,p{
   color:white !important;
   background-color: #c76b32 !important;
 }
+
+
+

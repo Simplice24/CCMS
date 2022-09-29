@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link a href="Style.css" rel="stylesheet">
+    <link a href="CSS/Style.css" rel="stylesheet">
 
 
      <!-- Favicon -->
@@ -23,9 +23,9 @@
      <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
      
 <!-- login links-->
-<link rel="stylesheet" href="login-style.css">
-<script src="login-verification.js"></script>
-<script src="loginpop.js"></script>
+<link rel="stylesheet" href="CSS/login-style.css">
+<script src="JS/login-verification.js"></script>
+<script src="JS/loginpop.js"></script>
 <!-- End of login -->
 
     <title>Coffe Cooperatives Management System</title>
@@ -90,15 +90,14 @@
     <div class="mb-3">
       <div class="input-icon">
         <i class="fa fa-lock"></i>
-      <input type="password" class="form-control" id="passwords" placeholder="Password" required/>
+      <input type="password" class="form-control" id="password" placeholder="Password" required/>
     </div>
     </div>
     <div class="mb-3">
-      <button type="button" class="btn btn-primary">Login</button>
+      <button type="button" class="btn btn-primary" onclick="checking()">Login</button>
     </div>
   </div>
 </div>
-
 <!--End of login-->
 
       <div class="container-fluid" id="home">
@@ -233,23 +232,6 @@
         <br>
         <i class="fa fa-copyright" id="copy">Copyright 2022</i>
       </footer>
-
-
-      <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-      <!--===============================================================================================-->
-        <script src="vendor/bootstrap/js/popper.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-      <!--===============================================================================================-->
-        <script src="vendor/select2/select2.min.js"></script>
-      <!--===============================================================================================-->
-        <script src="vendor/tilt/tilt.jquery.min.js"></script>
-        <script >
-          $('.js-tilt').tilt({
-            scale: 1.1
-          })
-        </script>
-      <!--===============================================================================================-->
-        <script src="js/main.js"></script>
 
 </body>
 </html>

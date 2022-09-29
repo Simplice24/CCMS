@@ -79,7 +79,7 @@ html{
     scroll-behavior: smooth !important;
 }
 #home{
-    background-image: url("coffee1.jpg");
+    background-image: url("../DocsImages/coffee1.jpg");
     width: 100% !important;
     height: 700px !important;
 }
