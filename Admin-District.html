@@ -10,6 +10,7 @@
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="../CSS/Admin-District.css">
+<link rel="stylesheet" href="../CSS/Selection.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -54,9 +55,25 @@
         </div>
     </div>
     <div class="Content">
-            
+      <div class="selecting">
+    
+        <select name="slct1" id="slct1" aria-placeholder="---Select Province---" onchange="populate('slct1','slct2')">
+            <option value="">--Select Province--</option>
+            <option value="western">Western</option>
+            <option value="eastern">Eastern</option>
+            <option value="southern">Southern</option>
+            <option value="northern">Northern</option>
+    <option value="kigali city">Kigali city</option>
+        </select>
+        
+        <select name="slct2" id="slct2" onchange="populate1(this.id,'slct3')">
+            <option value="">--Select District--</option>
+        </select>
+         <button type="button" class="btn btn-primary" id="modal-btn"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp; View District Agronomists</button>
+         <button type="button" class="btn btn-primary" id="modal-btn"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp; New District Agronomist</button>
+    </div>
     </div> 
      
-    
+    <script src="../JS/selection.js"></script>
 </body>
 </html>
